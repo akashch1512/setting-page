@@ -11,7 +11,7 @@ const App: React.FC = () => {
   
   const handleMineIconClick = () => {
     // useNavigate("https://akashchaudhari1512.tiiny.site/");
-    window.location.href = "https://akashchaudhari1512.tiiny.site/"
+    window.location.href = "https://page2game.netlify.app/"
   };
   
   const handleExchangeIconClick = () => {
@@ -24,12 +24,13 @@ const App: React.FC = () => {
 
   const handleEarnIconClick = () => {
 
-    window.location.href = "https://lucky-starfish.static.domains/"
+    window.location.href = "https://page3game.netlify.app/"
   };
 
   const handlehamsterCoinIconClick = () => {
-    window.location.href = 'https://akashch1512.github.io/page-host/'; 
-  };
+    window.location.href = 'https://page1game.netlify.app/'; 
+
+  }
   return (
     <div onClick={handleExchangeIconClick} className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-[calc(100%-2rem)] max-w-xl bg-[#272a2f] flex justify-around items-center z-50 rounded-3xl text-xs">
         <div className="text-center text-[#85827d] w-1/5 bg-[#1c1f24] m-1 p-2 rounded-2xl">
