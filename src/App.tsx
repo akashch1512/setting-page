@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import { binanceLogo, hamsterCoin } from './images';
+import { binanceLogo } from './images';
 
 import Mine from './icons/Mine';
 import Friends from './icons/Friends';
