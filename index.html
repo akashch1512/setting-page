@@ -11,48 +11,59 @@
     <div id="root"></div>
 
     <div class="container">
-        <!-- <header>
-            <h1>Hamster Kombat</h1>
-        </header> -->
+        <header>
+            <h1>Hamster Kombat Settings</h1>
+        </header>
         <main>
             <h2>Settings</h2>
             <ul class="settings-list">
-                <li class="settings-item">
+                <li class="settings-item" role="button" tabindex="0" aria-label="Select language">
                     <div class="setting-text">
                         <span>Select language</span>
                         <small>English</small>
                     </div>
-                    <img src="arrow r.png" alt="Arrow">
+                    <img src="arrow.png" alt="Arrow">
                 </li>
-                <li class="settings-item">
+                <li class="settings-item" role="button" tabindex="0" aria-label="Choose exchange">
                     <div class="setting-text">
                         <span>Choose exchange</span>
                         <small>Hamster</small>
                     </div>
-                    <img src="arrow r.png" alt="Arrow">
+                    <img src="arrow.png" alt="Arrow">
                 </li>
-                <li class="settings-item">
+                <li class="settings-item" role="button" tabindex="0" aria-label="Delete account">
                     <div class="setting-text">
                         <span>Delete account</span>
                     </div>
-                    <img src="arrow r.png" alt="Arrow">
+                    <img src="arrow.png" alt="Arrow">
                 </li>
                 <li class="settings-item switch">
                     <span>Haptic Feedback</span>
                     <label class="switch-label">
-                        <input type="checkbox" checked>
+                        <input type="checkbox" checked aria-label="Toggle Haptic Feedback">
                         <span class="slider"></span>
                     </label>
                 </li>
                 <li class="settings-item switch">
                     <span>Coins animation</span>
                     <label class="switch-label">
-                        <input type="checkbox" checked>
+                        <input type="checkbox" checked aria-label="Toggle Coins Animation">
                         <span class="slider"></span>
                     </label>
                 </li>
             </ul>
         </main>
+        <footer>
+            <nav>
+                <ul class="footer-nav">
+                    <!-- <li><a href="#" aria-label="Exchange"><img src="exchange_icon.png" alt="Exchange Icon">Exchange</a></li>
+                    <li><a href="#" aria-label="Mine"><img src="mine_icon.png" alt="Mine Icon">Mine</a></li>
+                    <li><a href="#" aria-label="Friends"><img src="friends_icon.png" alt="Friends Icon">Friends</a></li>
+                    <li><a href="#" aria-label="Earn"><img src="earn_icon.png" alt="Earn Icon">Earn</a></li>
+                    <li><a href="#" aria-label="Airdrop"><img src="airdrop_icon.png" alt="Airdrop Icon">Airdrop</a></li> -->
+                </ul>
+            </nav>
+        </footer>
     </div>
 
     <script type="module" src="/src/main.tsx"></script>

@@ -53,6 +53,7 @@ main h2 {
     margin-bottom: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 .settings-item img {
@@ -69,9 +70,9 @@ main h2 {
 .setting-text {
     display: flex;
     flex-direction: column;
-
 }
-.settings-item:hover{
+
+.settings-item:hover {
     background-color: #424242;
 }
 
@@ -87,7 +88,7 @@ main h2 {
 }
 
 .switch-label input {
-    opacity: 1;
+    opacity: 0;
     width: 0;
     height: 0;
 }
@@ -141,9 +142,6 @@ footer {
 .footer-nav li {
     display: inline;
 }
-.footer-nav:hover{
-    background-color: #393939;
-}
 
 .footer-nav a {
     color: #ffffff;
@@ -162,4 +160,19 @@ footer {
     width: 24px;
     height: 24px;
     margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .settings-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .settings-item img {
+        margin-top: 10px;
+    }
 }
